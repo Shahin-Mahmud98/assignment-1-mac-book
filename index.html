@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tailwindcss and Fonts using -->
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet" />
+
+
+    <style>
+        /* .customs {
+            font-size: 30px;
+            font-weight: 500;
+        } */
+        /* .display {
+            display: flex;
+        } */
+    </style>
+    <title>Mac-Book</title>
+
+</head>
+
+<body>
+    <main>
+        <div class="container mx-auto px-4 md:px-2">
+            <div class="grid grid-cols-2">
+                <!-- Image tag -->
+                <div class="p-5 border rounded border-gray-200 m-5">
+                    <div class="h-96 w-full">
+                        <img src="images/mac.png" id="art" class="w-full rounded h-full object-cover" alt="" />
+                    </div>
+                </div>
+
+                <!-- Options -->
+                <div class="mt-10 max-w-lg mx-auto">
+                    <h1 class="text-3xl font-weight: 500; ">Customize your Blue 24-inch iMac with apple M1 chip</h1>
+                    <span id="dsc" class="text-lg text-gray-700">Lorem ipsum dolor sit amet consectetur, adipisicing
+                        elit. Rerum
+                        beatae laboriosam, commodi quis tempore necessitatibus.
+                        Voluptatibus minima aut non doloremque?
+                    </span>
+                    <!-- <span class="text-2xl font-medium pb-2"></span> -->
+
+                    <!-- Memory -->
+                    <div class="pt-10">
+                        <h1 class="text-2xl font-weight: 500;">Memory</h1>
+                        <button class="
+                        p-2
+                    border border-gray-200
+                    shadow
+                    hover:shadow-lg hover:bg-green-700
+                    rounded
+                  " id="memo">
+                            8GB Unified Memory
+                        </button>
+                        <button id="unified" class="
+                        p-2
+                    border border-gray-200
+                    shadow
+                    hover:shadow-lg hover:bg-green-700
+                    rounded
+                  ">
+                            16 GB Unified Memory
+                        </button>
+                    </div>
+
+                    <!-- Storage -->
+
+                    <div class="pt-10">
+                        <h1 class="text-2xl font-weight: 500;">Storage</h1>
+                        <button class="
+                        p-2
+                    border border-gray-200
+                    shadow
+                    hover:shadow-lg hover:bg-green-700
+                    rounded
+                  " id="storage">
+                            256GB SSD Storage
+                        </button>
+                        <button id="storage-1" class="
+                        p-2
+                    border border-gray-200
+                    shadow
+                    hover:shadow-lg hover:bg-green-700
+                    rounded
+                  ">
+                            512GB SSD Storage
+                        </button>
+                        <button id="storage-2" class="
+                        p-2
+                    border border-gray-200
+                    shadow
+                    hover:shadow-lg hover:bg-green-700
+                    rounded
+                  ">
+                            1TB SSD Storage
+                        </button>
+                    </div>
+
+                    <!-- choose your delivery option -->
+
+                    <div class=" display pt-10">
+                        <h1 class="text-2xl font-weight: 500;">choose your delivery option</h1>
+                        <button class="
+                        p-1
+                    border border-gray-200
+                    shadow
+                    hover:shadow-lg hover:bg-green-700
+                    rounded
+                  " id="delivery-option">
+                            Friday, Aug 25 Free Prime Delivery
+                        </button>
+                        <button id="free-prime" class="
+                        p-1
+                    border border-gray-200
+                    shadow
+                    hover:shadow-lg hover:bg-green-700 
+                    rounded
+                  ">
+                            Friday, Aug 21 Free Prime Delivery
+                        </button>
+                    </div>
+                    <!-- Price docu -->
+
+                    <div class="pt-10">
+                        <div class="text-2xl py-2">
+                            Best Price : $<span id="price">1299</span>
+                        </div>
+                        <div class="text-2xl py-2">Extra Memory Cost : $<span id="mcost">0</span></div>
+                        <div class="text-2xl py-2">Extra Storage Cost : $<span id="scost">0</span></div>
+                        <div class="text-2xl py-2">Delivery Charge : $<span id="dcharge">0</span></div>
+                        <div class="text-2xl py-2">Total Price : $<span id="tprice">1299</span></div>
+                        <button class="
+                                
+                                text-xl
+                                border border-purple-200
+                                mt-6
+                                shadow
+                                rounded
+                                hover:shadow-xl
+                              ">
+
+                        </button>
+                        <div class="pt-10">
+                            <h1> Add Pomo Code
+                            </h1>
+                            <input id="inputFillOut" class="border border- black-200 " type="text">
+                            <button id="applyBtn"
+                                class="hover:bg-green-700 bg-red-700 p-0.5 shadow rounded">Apply</button>
+
+
+                        </div>
+                        <div class="pt-50 mt-10	">
+                            <div class="text-2xl py-2">Total : $<span id="total">0</span></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
